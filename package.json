@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-plugin-size-analyzer",
+  "version": "1.0.0",
+  "description": "Extension of webpack-bundle-size-analyzer for Gatsby",
+  "author": "Adrian von Gegerfelt <adrian@designbyadrian.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/designbyadrian/gatsby-plugin-size-analyzer/issues"
+  },
+  "homepage": "https://github.com/designbyadrian/gatsby-plugin-size-analyzer#readme",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://designbyadrian@github.com/designbyadrian/gatsby-plugin-size-analyzer.git"
+  },
+  "keywords": [
+    "gatsby",
+    "bundle",
+    "size"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "webpack": "^1.13.3",
+    "webpack-bundle-size-analyzer": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.0.5"
+  },
+  "peerDependencies": {
+    "gatsby": "^1.0.0"
+  }
+}
