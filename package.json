@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-size-analyzer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extension of webpack-bundle-size-analyzer for Gatsby",
   "author": "Adrian von Gegerfelt <adrian@designbyadrian.com>",
   "license": "MIT",
