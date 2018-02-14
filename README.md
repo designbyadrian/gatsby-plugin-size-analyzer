@@ -9,8 +9,7 @@ Extension of [webpack-bundle-size-analyzer](https://github.com/robertknight/webp
 ## How to use
 
 1. Include the plugin in your `gatsby-config.js` file.
-2. Create a folder in your project root, name it "reports".
-3. Build your gatsby project to find "size-analyzer.txt" inside the reports folder.
+2. `gatsby build` to find "size-analyzer.txt" inside the project folder.
 
 ```javascript
 // in gatsby-config.js
