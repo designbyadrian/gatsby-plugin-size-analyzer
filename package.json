@@ -16,7 +16,8 @@
   "keywords": [
     "gatsby",
     "bundle",
-    "size"
+    "size",
+    "gatsby-plugin"
   ],
   "main": "index.js",
   "scripts": {
